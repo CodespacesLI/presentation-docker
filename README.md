@@ -54,3 +54,9 @@ In this exercise, we are creating a custom repository on hub.docker.com and push
    ```bash
    docker push dockerblocker2000/todo-app:1.0.0
    ```
+## 5 Docker Compose
+In this exercise, we are starting multiple containers in a compose.
+
+1. Go to https://github.com/docker/awesome-compose/tree/master and download the repository
+2. Select one project and start it with `docker compose up -d`
+3. Read the `compose.yml` file
