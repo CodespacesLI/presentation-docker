@@ -18,4 +18,4 @@
     EXPOSE 4173
     
     # Kopiere fertiges /dist aus Stage 1 in das Standardverzeichnis von Nginx
-    COPY --from=build /app/dist /usr/share/nginx/htmlP`
+    COPY --from=build /app/dist /usr/share/nginx/html
